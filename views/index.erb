@@ -1,0 +1,13 @@
+<body>
+  <img src="http://bit.ly/1eze8aE" alt="cat" style="border: dashed red;">
+
+  <h1>My name is <%= @name %></h1>
+<% if @name.nil? %>
+  <form action="/named-cat" method="post">
+
+    <input type="text" name="name"></input>
+    <input type ="submit" value="Submit"></input>
+  </form>
+<% end %>
+
+</body>
