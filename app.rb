@@ -23,6 +23,6 @@ post '/named-cat' do
   erb(:index)
 end
 
-get '/cat-naming' do
+get '/cat-form' do
   erb(:index)
 end
